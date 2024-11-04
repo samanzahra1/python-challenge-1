@@ -148,7 +148,7 @@ while place_order:
                     item_price = menu_items[menu_item_number]["Price"]
 
                     user_order_dictionary = {"Item name": item_name, "price": item_price, "quantity" :quantity }
-                    order_list.append[user_order_dictionary]
+                    order_list.append(user_order_dictionary)
 
                     # Tell the customer that their input isn't valid
                 else:  
